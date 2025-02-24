@@ -1,0 +1,20 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "9efdd33a394ee2ccf7a738c05843cce8fd7a7858bfdd2dad9bc6b5863d34ad85": {
+      "source": {
+        "path": "dev-chatbot-stack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "015660625659-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-015660625659-us-east-1",
+          "objectKey": "9efdd33a394ee2ccf7a738c05843cce8fd7a7858bfdd2dad9bc6b5863d34ad85.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::015660625659:role/cdk-hnb659fds-file-publishing-role-015660625659-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
